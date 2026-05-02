@@ -1,0 +1,85 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache directories
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# -------------------------
+# macOS
+# -------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# -------------------------
+# FastAPI / Uvicorn
+# -------------------------
+# (Uvicorn doesn't generate many files, but logs might)
+*.pid
+*.db
+
+# -------------------------
+# Node / Frontend (if added later)
+# -------------------------
+node_modules/
+dist/
+build/
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+.env
+.env.*
+*.env
+
+# -------------------------
+# PDFs or user-uploaded files
+# -------------------------
+uploads/
+tmp/
+temp/
+
+# -------------------------
+# OS / Misc
+# -------------------------
+*.swp
+*.swo
+*.tmp

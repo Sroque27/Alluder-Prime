@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Alluder – Reading Assistant Demo</title>
+
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="/ui/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Alluder</h1>
+        <p>Your local reading assistant for insights, context, and clarity.</p>
+    </header>
+
+    <!-- Input Section -->
+    <section id="input-section">
+        <h2>Analyze Text</h2>
+
+        <!-- Text Input -->
+        <textarea id="text-input" placeholder="Paste text here..."></textarea>
+        <button id="analyze-text-btn">Analyze Text</button>
+
+        <hr>
+
+        <!-- PDF Upload -->
+        <h3>Upload PDF</h3>
+        <input type="file" id="pdf-input" accept="application/pdf" />
+        <button id="analyze-pdf-btn">Analyze PDF</button>
+
+        <hr>
+
+        <!-- URL Input -->
+        <h3>Analyze URL</h3>
+        <input type="text" id="url-input" placeholder="https://example.com/article" />
+        <button id="analyze-url-btn">Analyze URL</button>
+    </section>
+
+    <hr>
+
+    <!-- Display Section -->
+    <section id="display-section">
+        <h2>Original Text</h2>
+        <div id="text-display"></div>
+
+        <h2>Insights</h2>
+        <div id="insight-display"></div>
+    </section>
+
+    <!-- Sidebar Bubbles -->
+    <div id="bubble-container"></div>
+
+    <!-- Load your JS files -->
+    <script src="/ui/app.js"></script>
+    <script src="/ui/bubbles.js"></script>
+</body>
+</html>

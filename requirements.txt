@@ -1,0 +1,25 @@
+#Core NLP
+spacy
+spacy-transformers
+langdetect
+lemminflect
+
+#Translation
+googletrans==4.0.0-rc1
+
+#Knowledge lookup
+wikipedia
+wikidata
+
+#PDF + URL extraction
+pdfplumber
+beautifulsoup4
+requests
+
+#Backend server
+fastapi
+uvicorn
+
+#Optional enhancements
+python-dotenv
+cachetools
